@@ -19,11 +19,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PHPstorm\SiteSpaceX\img" />
+      <recent name="D:\PHPstorm\SiteSpaceX" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PHPstorm\SiteSpaceX\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PHPstorm\SiteSpaceX" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -38,6 +39,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SiteSpaceX/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -51,7 +62,16 @@
       <workItem from="1568058514608" duration="25000" />
       <workItem from="1568058563219" duration="4485000" />
       <workItem from="1568117115552" duration="2333000" />
-      <workItem from="1568122983155" duration="232000" />
+      <workItem from="1568122983155" duration="1288000" />
+      <workItem from="1568124747823" duration="33000" />
+      <workItem from="1568131785276" duration="4271000" />
+      <workItem from="1568145395990" duration="301000" />
+      <workItem from="1568216196991" duration="45000" />
+      <workItem from="1568218102752" duration="1711000" />
+      <workItem from="1568225339469" duration="1209000" />
+      <workItem from="1568231434579" duration="761000" />
+      <workItem from="1568245080606" duration="1888000" />
+      <workItem from="1568297187081" duration="1879000" />
     </task>
     <servers />
   </component>

@@ -21,7 +21,7 @@
 }
 .bg{
     background-image: url("../img/SpaceX.jpg");
-    height: 600px;
+    height: 650px;
 }
 hr{
     padding-bottom:3px;
@@ -41,9 +41,14 @@ hr{
     background-color: cornflowerblue;
     padding-bottom:120px;
     padding-top:120px;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 body{
     background-color: cornflowerblue;
+}
+.grid{
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
 }
