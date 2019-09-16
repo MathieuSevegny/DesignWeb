@@ -1,0 +1,50 @@
+.rouge{
+    /* on fait jamais ça*/
+    height: 400px;
+    /* mettre une hauteur fixe en BS */
+    background-color: red;
+}
+.bleu{
+    height: 400px;
+    background-color: blue;
+}
+.vert{
+    height: 400px;
+    background-color: greenyellow;
+}
+.jaune{
+    height: 400px;
+    background-color: yellow;
+}
+.blank{
+    height: 400px;
+}
+.bg{
+    background-image: url("../img/SpaceX.jpg");
+    height: 725px;
+}
+hr{
+    padding-bottom:3px;
+    padding-top:3px;
+    height: 5px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #c40000;
+}
+.greybg{
+    background-color: darkslategrey;
+    padding-bottom:60px;
+    padding-top:60px;
+
+}
+.bleubg{
+    background-color: cornflowerblue;
+    padding-bottom:120px;
+    padding-top:120px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+body{
+    background-color: cornflowerblue;
+}
+
