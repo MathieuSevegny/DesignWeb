@@ -1,0 +1,16 @@
+html, body{
+    font-size: 10px;
+    background-color: dimgrey;
+}
+.pic{
+    border-radius: 50%;
+}
+.bg-primary{
+    background-color: cornflowerblue;
+}
+a{
+    color: darkblue;
+}
+p{
+    font-size: 1.6rem;
+}
