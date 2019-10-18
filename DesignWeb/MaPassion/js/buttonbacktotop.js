@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
         $('#back-to-top').fadeIn();
@@ -12,19 +11,4 @@ $('#back-to-top').click(function () {
         scrollTop: 0
     }, 400);
     return false;
-=======
-$(window).scroll(function () {
-    if ($(this).scrollTop() > 50) {
-        $('#back-to-top').fadeIn();
-    } else {
-        $('#back-to-top').fadeOut();
-    }
-});
-// scroll body to 0px on click
-$('#back-to-top').click(function () {
-    $('body,html').animate({
-        scrollTop: 0
-    }, 400);
-    return false;
->>>>>>> 3aeb1551afeb967f0919eac644e2cf4299cb6dae
-});
+})
