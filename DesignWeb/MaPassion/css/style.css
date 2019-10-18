@@ -1,0 +1,485 @@
+/* style.css */
+/* Programmé par Mathieu Sévégny */
+/* Le 8 octobre 2019 */
+html, body {
+    font-size: 14px;
+    background-color: cornflowerblue;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.bann {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    height: 5px;
+    max-width: 30px;
+    border-width: 3px;
+    border-color: black;
+}
+
+.title {
+    background-image: url("../img/sonicbann.png");
+    -webkit-filter: blur(0.1rem);
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    filter: brightness(60%) blur(0.1rem);
+}
+
+.frow {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.fgroup {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.title1 {
+    background-image: url("../img/sonicbann2.png");
+    -webkit-filter: blur(0.1rem);
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    filter: brightness(60%) blur(0.1rem);
+}
+
+.title2 {
+    background-image: url("../img/sonicbattlebann.jpg");
+    -webkit-filter: blur(0.1rem);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    filter: brightness(60%) blur(0.1rem);
+}
+
+.titletext {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: darkslategrey;
+}
+
+.card-title {
+    color: cornflowerblue;
+}
+
+.text-black {
+    color: black;
+}
+
+.banner {
+    height: 16rem;
+    background-position: center;
+}
+
+.bg-blue {
+    background-color: cornflowerblue;
+}
+
+.text-grey {
+    text-decoration-color: darkslategrey;
+}
+
+.grey {
+    color: darkslategrey;
+}
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../img/sonicparalax.jpg");
+
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("../img/sonicparalax1.jpg");
+
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../img/sonicbattle.jpg");
+
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#back-to-top {
+    color: darkslategrey;
+}
+
+#myBtn {
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    background-color: rgba(6, 87, 0, 0); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    border: 2px solid white;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.logo {
+    width: 60rem;
+}
+
+.navbar {
+    background-color: #2f4f4f;
+}
+
+.navbar .navbar-brand {
+    color: #6495ed;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #fbfbfc;
+}
+
+.navbar .navbar-text {
+    color: #6495ed;
+}
+
+.navbar .navbar-text a {
+    color: #fbfbfc;
+}
+
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #fbfbfc;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #6495ed;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #fbfbfc;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+    background-color: #2f4f4f;
+    border-color: #73767c;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+    color: #6495ed;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: #fbfbfc;
+    background-color: #73767c;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+    border-top-color: #73767c;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #fbfbfc;
+    background-color: #73767c;
+}
+
+.navbar .navbar-toggle {
+    border-color: #73767c;
+}
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #73767c;
+}
+
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #6495ed;
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #6495ed;
+}
+
+.navbar .navbar-link {
+    color: #6495ed;
+}
+
+.navbar .navbar-link:hover {
+    color: #fbfbfc;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #6495ed;
+    }
+
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #fbfbfc;
+    }
+
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #fbfbfc;
+        background-color: #73767c;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #6495ed;
+    }
+
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #fbfbfc;
+    }
+
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #fbfbfc;
+        background-color: #73767c;
+    }
+
+    html, body {
+        font-size: 16px;
+    }
+
+    .title {
+        background-image: url("../img/sonicbannIpad.png");
+        -webkit-filter: blur(0.1rem);
+        height: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        filter: brightness(60%) blur(0.1rem);
+    }
+
+    .title1 {
+        background-image: url("../img/sonicbann2Ipad.png");
+        -webkit-filter: blur(0.1rem);
+        height: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        filter: brightness(60%) blur(0.1rem);
+    }
+
+    .title2 {
+        background-image: url("../img/sonicbattlebannIpad.jpg.png");
+        -webkit-filter: blur(0.1rem);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        filter: brightness(60%) blur(0.1rem);
+    }
+
+    .titletext {
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #6495ed;
+    }
+
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #fbfbfc;
+    }
+
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #fbfbfc;
+        background-color: #73767c;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #6495ed;
+    }
+
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #fbfbfc;
+    }
+
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #fbfbfc;
+        background-color: #73767c;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #6495ed;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fbfbfc;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fbfbfc;
+    background-color: #73767c;
+}
+
+@media (max-width: 411px) {
+    .frow {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .fgroup {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .title {
+        background-image: url("../img/sonicbannPixel.png");
+        -webkit-filter: blur(0.1rem);
+        height: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        filter: brightness(60%) blur(0.1rem);
+    }
+
+    .title1 {
+        background-image: url("../img/sonicbann2Pixel.png");
+        -webkit-filter: blur(0.1rem);
+        height: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        filter: brightness(60%) blur(0.1rem);
+    }
+
+    .title2 {
+        background-image: url("../img/sonicbattlebannPixel.jpg.png");
+        -webkit-filter: blur(0.1rem);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        filter: brightness(60%) blur(0.1rem);
+    }
+
+    .titletext {
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    html, body {
+        font-size: 17px;
+    }
+}
