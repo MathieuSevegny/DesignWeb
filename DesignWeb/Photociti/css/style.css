@@ -1,0 +1,129 @@
+/* style.css */
+/* Programmé par Mathieu Sévégny */
+/* Le 18 novembre 2019 */
+html, body {
+    font-size: 14px;
+    background-image: url("../img/vangogh.jpg");
+}
+
+.textred {
+    text-decoration-color: red;
+    color: red;
+}
+
+.textyellow {
+    text-decoration-color: yellow;
+    color: yellow;
+}
+
+.textgreen {
+    text-decoration-color: green;
+    color: green;
+}
+
+#blanc {
+    background-color: white;
+}
+
+#go {
+    position: relative;
+    right: 30px;
+}
+
+#background {
+    background-image: url("../background/blanc.jpg");
+}
+
+#1 {
+    background-image: url("../Letters/J/J1.jpg");
+    width: 100%;
+}
+
+#2 {
+    background-image: url("../Letters/A/A1.jpg");
+    width: 100%;
+}
+
+#3 {
+    background-image: url("../Letters/V/V1.jpg");
+    width: 100%;
+}
+
+#4 {
+    background-image: url("../Letters/A/A1.jpg");
+    width: 100%;
+}
+
+#5 {
+    background-image: url("../Letters/S/S1.jpg");
+    width: 100%;
+}
+
+#6 {
+    background-image: url("../Letters/C/C1.jpg");
+    width: 100%;
+}
+
+#7 {
+    background-image: url("../Letters/R/R1.jpg");
+    width: 100%;
+}
+
+#8 {
+    background-image: url("../Letters/I/I1.jpg");
+    width: 100%;
+}
+
+#9 {
+    background-image: url("../Letters/P/P1.jpg");
+    width: 100%;
+}
+
+#10 {
+    background-image: url("../Letters/T/T1.jpg");
+    width: 100%;
+}
+
+.couleur:hover {
+    cursor: pointer;
+}
+
+.lettre:hover {
+    cursor: pointer;
+}
+
+@media print {
+    @page {size: landscape}
+    .print {
+        display: none;
+    }
+
+    div {
+        page-break-inside: avoid;
+    }
+
+    #background, #printing {
+        -webkit-print-color-adjust: exact !important;
+        page-break-inside: avoid;
+    }
+
+    .lettre {
+        page-break-inside: avoid;
+        height: 150px;
+        width: auto;
+    }
+
+    @page {
+        margin: 2.5cm;
+    }
+
+    div.row > div {
+        display: inline-block;
+        margin: 0.2cm;
+    }
+
+    div.row {
+        display: block;
+    }
+
+}
