@@ -56,7 +56,7 @@ function go() {
     var text = $('#word').val();
     if (text.length >= 3 && text.length <=12) {
         if (text.length === 3) {
-            $('.lettres').attr("class", "col-xl-4 lettres p-0 m-0");
+            $('.lettres').attr("class", "col-4 lettres p-0 m-0");
             $('#4').hide();
             $('#5').hide();
             $('#6').hide();
@@ -68,7 +68,7 @@ function go() {
             $('#12').hide();
         }
         else if (text.length === 4) {
-            $('.lettres').attr("class", "col-xl-3 lettres p-0 m-0");
+            $('.lettres').attr("class", "col-3 lettres p-0 m-0");
             $('#4').show();
             $('#5').hide();
             $('#6').hide();
@@ -80,7 +80,7 @@ function go() {
             $('#12').hide();
         }
         else if (text.length === 5 || text.length === 6) {
-            $('.lettres').attr("class", "col-xl-2 lettres p-0 m-0");
+            $('.lettres').attr("class", "col-2 lettres p-0 m-0");
             $('#4').show();
             $('#5').show();
             $('#6').show();
@@ -92,7 +92,7 @@ function go() {
             $('#12').hide();
         }
         else if (text.length >= 7) {
-            $('.lettres').attr("class", "col-xl-1 lettres p-0 m-0");
+            $('.lettres').attr("class", "col-1 lettres p-0 m-0");
             $('#4').show();
             $('#5').show();
             $('#6').show();

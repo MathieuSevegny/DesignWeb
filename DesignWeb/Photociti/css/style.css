@@ -109,19 +109,23 @@ html, body {
 
     .lettre {
         page-break-inside: avoid;
-        height: 150px;
-        width: auto;
-    }
-
-    @page {
-        margin: 2.5cm;
     }
 
     div.row > div {
         display: inline-block;
-        margin: 0.2cm;
     }
-
+    .col-4 {
+        width: 250px;
+    }
+    .col-3 {
+        width: 200px;
+    }
+    .col-2 {
+        width: 130px;
+    }
+    .col-1 {
+        width: 65px;
+    }
     div.row {
         display: block;
     }
