@@ -14,6 +14,7 @@ function letterplacement() {
             var x = i + 1;
             if (mot[i] === '*') {
                 $("#" + x).attr("src", "Letters/CS/CS1.jpg");
+                mot[i] = "CS";
             } else {
                 var lettre = letter.toUpperCase();
                 $("#" + x).attr("src", "Letters/" + lettre + "/" + lettre + "1.jpg");
@@ -42,8 +43,8 @@ $('#word').keyup(function () {
     var str = this.value;
     var length = this.value.length;
     var str2 = str.charAt(length - 1);
-    if (/[A-Z]/.test(str2) || str2.includes("*") || /[a-z]/.test(str2))   {}
-    else {
+    if (/[A-Z]/.test(str2) || str2.includes("*") || /[a-z]/.test(str2)) {
+    } else {
         this.value = this.value.replace(str2, "");
         return this.value;
     }
@@ -94,18 +95,14 @@ function go() {
 
 $('.couleur').click(function () {
     var couleur = $(this).attr("id");
-    $('#background').css("background-image", 'url("background/'+ couleur +'.jpg")');
+    $('#background').css("background-image", 'url("background/' + couleur + '.jpg")');
 });
 
 $('.lettre').click(function () {
     nb = $(this).attr('id');
-    if (mot[nb - 1] === '*') {
-        car = "CS";
-    } else {
-        car = mot[nb - 1].toUpperCase();
-    }
-    for (var i = 1; i<=5; i++) {
-        $('#car'+i).attr("src", "Letters/" + car + "/" + car + i + ".jpg");
+    car = mot[nb - 1].toUpperCase();
+    for (var i = 1; i <= 5; i++) {
+        $('#car' + i).attr("src", "Letters/" + car + "/" + car + i + ".jpg");
     }
     $('#choix2').modal('show');
 });
