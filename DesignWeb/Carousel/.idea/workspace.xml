@@ -20,7 +20,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,6 +59,12 @@
       <workItem from="1569267494318" duration="4614000" />
       <workItem from="1569327338029" duration="1945000" />
       <workItem from="1569329941610" duration="173000" />
+      <workItem from="1569330892720" duration="645000" />
+      <workItem from="1569347911176" duration="15000" />
+      <workItem from="1569506912083" duration="83000" />
+      <workItem from="1569873677106" duration="14000" />
+      <workItem from="1570537901854" duration="1405000" />
+      <workItem from="1570553811428" duration="15000" />
     </task>
     <servers />
   </component>
