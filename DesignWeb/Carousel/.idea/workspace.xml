@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eec03735-8f26-41c8-a40f-4f580d680d53" name="Default Changelist" comment="" />
+    <list default="true" id="eec03735-8f26-41c8-a40f-4f580d680d53" name="Default Changelist" comment="Test Webstorm">
+      <change beforePath="$PROJECT_DIR$/../MaPassion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaPassion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Photociti/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Photociti/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Photociti/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Photociti/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSocial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSocial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSpaceX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSpaceX/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSpaceX/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSpaceX/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSpaceX/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTestIcone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteTestIcone/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +74,16 @@
       <workItem from="1569873677106" duration="14000" />
       <workItem from="1570537901854" duration="1405000" />
       <workItem from="1570553811428" duration="15000" />
+      <workItem from="1574447899844" duration="266000" />
     </task>
+    <task id="LOCAL-00001" summary="Test Webstorm">
+      <created>1574448062850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574448062851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +101,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Webstorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Webstorm" />
   </component>
 </project>
