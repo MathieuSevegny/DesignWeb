@@ -84,7 +84,9 @@ function go() {
             }
         } else if (text.length >= 7) {
             $('.lettres').attr("class", "col-1 lettres p-0 m-0");
-            $('.couleur').show();
+            for (i = 1; i <= 12; i++) {
+                $('#' + i).show();
+            }
         }
         letterplacement()
     }
