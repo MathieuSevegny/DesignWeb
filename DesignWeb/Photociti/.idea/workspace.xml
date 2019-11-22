@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f26cf3c3-b1c2-4bb6-954a-8095c99cc945" name="Default Changelist" comment="" />
+    <list default="true" id="f26cf3c3-b1c2-4bb6-954a-8095c99cc945" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Carousel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Carousel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaPassion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaPassion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSocial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSocial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSpaceX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSpaceX/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSpaceX/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSpaceX/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSpaceX/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteTestIcone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteTestIcone/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +23,21 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Photociti" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1TnuD8CuwelkzsM3dSeVRSehEyQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -39,6 +56,19 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="image.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/image.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.image.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,6 +97,21 @@
       <workItem from="1574299641515" duration="8000" />
       <workItem from="1574299679137" duration="1297000" />
       <workItem from="1574302229136" duration="2143000" />
+      <workItem from="1574304699855" duration="401000" />
+      <workItem from="1574350985202" duration="494000" />
+      <workItem from="1574351655434" duration="196000" />
+      <workItem from="1574435810119" duration="1107000" />
+      <workItem from="1574437008793" duration="17000" />
+      <workItem from="1574438515549" duration="110000" />
+      <workItem from="1574438822594" duration="54000" />
+      <workItem from="1574438882471" duration="6000" />
+      <workItem from="1574446228856" duration="837000" />
+      <workItem from="1574449179923" duration="227000" />
+      <workItem from="1574450873020" duration="440000" />
+      <workItem from="1574451331615" duration="16000" />
+      <workItem from="1574452604696" duration="178000" />
+      <workItem from="1574455891348" duration="67000" />
+      <workItem from="1574456168509" duration="520000" />
     </task>
     <servers />
   </component>
