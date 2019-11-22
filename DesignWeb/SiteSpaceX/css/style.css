@@ -30,7 +30,9 @@ hr{
     max-width: 50px;
     border-width: 3px;
     border-color: #c40000;
+    position: center;
 }
+
 .greybg{
     background-color: darkslategrey;
     padding-bottom:60px;
