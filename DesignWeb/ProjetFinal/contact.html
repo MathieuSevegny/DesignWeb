@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MyCafé</title>
+    <link rel="icon" type="image/png" href="img/logoextended.png"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf20ff03a8.js"></script>
+</head>
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html"><img src="img/logoextended.png" height="70"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="img/32-321819_archives-menu-white-three-lines.png"
+                                               class="img-fluid"/></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="emplacements.html">Nos Emplacements</a></li>
+            <li class="nav-item"><a class="nav-link" href="prix.html">Acheter</a></li>
+            <li class="nav-item active"><a class="nav-link" href="contact.html">Nous Joindre</a></li>
+            <li class="nav-item"><a class="nav-link" href="propos.html">À propos de nous</a></li>
+        </ul>
+    </div>
+
+
+</nav>
+<body class="bgdarkgrey">
+<br>
+<br>
+<br>
+<br>
+<section>
+    <div class="jumbotron-fluid text-center">
+        <div class="card bgdarkgrey">
+            <div class="card-body">
+                <h2 class="text-white">Vous avez des commentaires?</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-2">
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <h5>Votre commentaire a été envoyé avec succès!</h5>
+                    <button type="button" id="buttonclose" class="btn btn-secondary">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form>
+        <div class="container-fluid my-5">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label class="text-white" for="inputEmail">Addresse courriel</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label class="text-white" for="inputName">Votre nom</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Nom">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="text-white" for="exampleFormControlTextarea1">Votre commentaire</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Commentaire" rows="5"></textarea>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#exampleModal">
+                Envoyer
+            </button>
+        </div>
+    </form>
+</section>
+
+
+<footer class="bgdarkgrey pt-5">
+    <div class="container-fluid">
+        <div class="row pt-4 mx-5">
+            <div class="col-4 pb-5">
+                <h4 class="text-white">Suivez-nous sur :</h4>
+                <i class="fab fa-facebook fa-3x text-white icon"></i>
+                <i class="fab fa-twitter fa-3x text-white icon"></i>
+                <i class="fab fa-instagram fa-3x text-white icon"></i>
+            </div>
+            <div class="col-4 text-center">
+                <a id="back-to-top" href="#top" role="button"><i class="fas fa-chevron-up text-white fa-3x"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/formsend.js"></script>
+<script src="js/buttonbacktotop.js"></script>
+</body>
+</html>

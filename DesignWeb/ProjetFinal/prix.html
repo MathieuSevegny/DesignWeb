@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MyCafé</title>
+    <link rel="icon" type="image/png" href="img/logoextended.png"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/motion-ui.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf20ff03a8.js"></script>
+</head>
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html"><img src="img/logoextended.png" height="70"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="img/32-321819_archives-menu-white-three-lines.png"
+                                               class="img-fluid"/></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="emplacements.html">Nos Emplacements</a></li>
+            <li class="nav-item active"><a class="nav-link" href="prix.html">Acheter</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Nous Joindre</a></li>
+            <li class="nav-item"><a class="nav-link" href="propos.html">À propos de nous</a></li>
+        </ul>
+    </div>
+
+
+</nav>
+<body class="bgprix">
+<section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="jumbotron-fluid">
+        <div class="card bgdarkgrey">
+            <div class="ml-auto card-body">
+                <i class="cart fas fa-shopping-cart fa-3x"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bgbrown">
+        <!---------------------------------------------------------------------->
+        <div class="modal" tabindex="-1" role="dialog" id="panier">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Panier
+                    </div>
+                    <div class="modal-body">
+                        <div id="nothing" class="row text-center">
+                            <div class="col"><h3>Il y a rien dans votre panier.</h3></div>
+                        </div>
+
+                        <div id="sacnoir">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img id="n" src="img/darkcafe.png" class="img-fluid"/>
+                                </div>
+                                <div class="col-8">
+                                    <h3>MyCafé noir</h3>
+                                    <input type="number" class="counter" id="nbcafenoir" name="nbcafenoir"
+                                           min="0" max="10">
+                                    <h5 id="prixnoir"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sacgold">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img id="o" src="img/goldcafe.png" class="img-fluid"/>
+                                </div>
+                                <div class="col-8">
+                                    <h3>MyCafé or</h3>
+                                    <input type="number" class="counter" id="nbcafeor" name="nbcafeor"
+                                           min="0" max="10">
+                                    <h5 id="prixor"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sacblanc">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img id="b" src="img/whitecafe.png" class="img-fluid"/>
+                                </div>
+                                <div class="col-8">
+                                    <h3>MyCafé blanc</h3>
+                                    <input type="number" class="counter" id="nbcafeblanc" name="nbcafeblanc"
+                                           min="0" max="10">
+                                    <h5 id="prixblanc"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-8">
+                                <p id="soustotal"></p>
+                                <p id="tps"></p>
+                                <p id="tvq"></p>
+                                <p id="total"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="ml-auto">
+                            <button type="button" id="continuer" class="btn btn-dark">Continuer</button>
+                            <button type="button" id="buttonsend" class="btn btn-danger">Commander</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------->
+        <div id="noir" class="row p-5">
+            <div class="col-xl-4 col-md-4 col-12 text-center">
+                <img src="img/darkcafe.png" class="img-fluid"/>
+            </div>
+            <div class="col-xl-8 col-md-8 col-12 mt-5">
+                <h2 class="text-white">MyCafé noir (340g) - 22,95$</h2>
+                <button id="addnoir" class="btn btn-danger"><h4>Ajouter au panier</h4></button>
+                <br>
+                <br>
+                <div class="accordion" id="black">
+                    <div class="card bgdarkgrey">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h2
+                                        class="text-white nounder">Description :</h2>
+
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                             data-parent="#black">
+                            <div class="card-body prix text-white">
+                                MyCafé noir – Colombien noir de torréfaction foncée avec sa saveur corsée,
+                                un arôme riche intensifié par ses notes subtiles de fruits & sa longue finale.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="or" class="row p-5">
+            <div class="col-xl-4 col-md-4 col-12 text-center">
+                <img src="img/goldcafe.png" class="img-fluid"/>
+            </div>
+            <div class="col-xl-8 col-md-8 col-12 mt-5">
+                <h2 class="text-white">MyCafé or (1kg) - 41,85$</h2>
+                <button id="addgold" class="btn btn-danger"><h4>Ajouter au panier</h4></button>
+                <br>
+                <br>
+                <div class="accordion" id="gold">
+                    <div class="card bgdarkgrey">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h2
+                                            class="text-white nounder">Description :</h2>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                             data-parent="#gold">
+                            <div class="card-body prix text-white">
+                                Le MyCafé or - Pour les connaisseurs, le colombien est la norme
+                                d’excellence du café.
+                                Celui-ci est à la hauteur de cette réputation bien méritée, avec sa saveur ronde, son
+                                acidité
+                                franche et son goût savoureux rappelant celui d'un vin légèrement fruité.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="blanc" class="row p-5">
+            <div class="col-xl-4 col-md-4 col-12 text-center">
+                <img src="img/whitecafe.png" class="img-fluid"/>
+            </div>
+            <div class="col-xl-8 col-md-8 col-12 mt-5">
+                <h2 class="text-white">MyCafé blanc (340g) - 22,95$</h2>
+                <button id="addblanc" class="btn btn-danger"><h4>Ajouter au panier</h4></button>
+                <br>
+                <br>
+                <div class="accordion" id="white">
+                    <div class="card bgdarkgrey">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                    <h2
+                                            class="text-white nounder">Description :</h2>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                             data-parent="#white">
+                            <div class="card-body prix text-white">
+                                MyCafé blanc - Ce café exotique du Costa Rica offre un léger et succulent
+                                goût de miel et une vivacité qui égayera votre journée !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="bgdarkgrey pt-5">
+    <div class="container-fluid">
+        <div class="row pt-4 mx-5">
+            <div class="col-4 pb-5">
+                <h4 class="text-white">Suivez-nous sur :</h4>
+                <i class="fab fa-facebook fa-3x text-white icon"></i>
+                <i class="fab fa-twitter fa-3x text-white icon"></i>
+                <i class="fab fa-instagram fa-3x text-white icon"></i>
+            </div>
+            <div class="col-4 text-center">
+                <a id="back-to-top" href="#top" role="button"><i class="fas fa-chevron-up text-white fa-3x"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/buttonbacktotop.js"></script>
+<script src="js/magasin.js"></script>
+</body>
+</html>

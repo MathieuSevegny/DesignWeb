@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d58d101-95ca-45e5-a53f-f42244580300" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CegepPrinceville/.idea/CegepPrinceville.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CegepPrincevilleVideo/.idea/CegepPrinceville.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comiccon/.idea/Comiccon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Formulaires/.idea/Formulaires.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModalsEtJumbotron/.idea/ModalsEtJumbotron.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Photociti2/.idea/Photociti1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PokemonCard/.idea/PokemonCard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ProjetFinal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/motion-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emplacements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/32-321819_archives-menu-white-three-lines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/backgroundcontact.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/backgroundprix.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/darkcafe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/goldcafe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logoextended.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/paralax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/whitecafe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/buttonbacktotop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/formsend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.abide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.clearing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.equalizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.interchange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.joyride.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.magellan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.offcanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.orbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.reveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/foundation/foundation.topbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/magasin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/motion-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mp4/MyCafe.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mp4/coffee.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaPassion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaPassion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Photociti/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Photociti/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Photociti/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Photociti/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SiteSpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSpaceX/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\masaf\Documents\GitHub\MathieuSevegny\DesignWeb\ProjetFinal\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1URU4UUUhwjosxO4F5TKEvMwqz1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SiteSpaceX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\masaf\Documents\GitHub\MathieuSevegny\DesignWeb\ProjetFinal\js" />
+      <recent name="C:\Users\masaf\Documents\GitHub\MathieuSevegny\DesignWeb\ProjetFinal\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\masaf\Documents\GitHub\MathieuSevegny\DesignWeb\ProjetFinal\img" />
+      <recent name="C:\Users\masaf\Documents\GitHub\MathieuSevegny\DesignWeb\ProjetFinal\js" />
+      <recent name="C:\Users\masaf\Documents\GitHub\MathieuSevegny\DesignWeb\ProjetFinal" />
+      <recent name="C:\Users\masaf\Documents\GitHub\MathieuSevegny\DesignWeb\ProjetFinal\mp4" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d58d101-95ca-45e5-a53f-f42244580300" name="Default Changelist" comment="" />
+      <created>1575318709118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575318709118</updated>
+      <workItem from="1575318710294" duration="2516000" />
+      <workItem from="1575378929273" duration="5543000" />
+      <workItem from="1575385644222" duration="126000" />
+      <workItem from="1575389389826" duration="178000" />
+      <workItem from="1575392806787" duration="2446000" />
+      <workItem from="1575396476797" duration="236000" />
+      <workItem from="1575396972852" duration="6497000" />
+      <workItem from="1575426912236" duration="87000" />
+      <workItem from="1575489378881" duration="6045000" />
+      <workItem from="1575506848265" duration="459000" />
+      <workItem from="1575558872345" duration="6392000" />
+      <workItem from="1575645085718" duration="1117000" />
+      <workItem from="1575647696402" duration="1846000" />
+      <workItem from="1575654171264" duration="847000" />
+      <workItem from="1575656051145" duration="738000" />
+      <workItem from="1575658502071" duration="46000" />
+      <workItem from="1575674830285" duration="12095000" />
+      <workItem from="1575851026583" duration="379000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575491637988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575491637988" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1575675510707">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575675510707" />
+  </component>
+</project>
