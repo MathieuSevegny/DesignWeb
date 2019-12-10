@@ -6,14 +6,20 @@
     <title>MyCafé</title>
     <link rel="icon" type="image/png" href="img/logoextended.png"/>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/csshake.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bf20ff03a8.js"></script>
+    <script src="js/pace.min.js"></script>
+
 </head>
 <nav id="nav" class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="index.html"><img src="img/logoextended.png" height="70"/></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><img src="img/32-321819_archives-menu-white-three-lines.png" class="img-fluid"/></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="img/32-321819_archives-menu-white-three-lines.png"
+                                               class="img-fluid"/></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,7 +37,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-12">
-                <video width="100%" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <video height="100%" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                     <source src="mp4/MyCafe.mp4" type="video/mp4">
                 </video>
             </div>
@@ -42,23 +48,24 @@
     <div class="container-fluid bgdarkgrey">
         <div class="container pt-5">
             <div class="row p-5">
-                <div class="col-xl-4 col-md-4 col-12 text-center my-5">
+                <div class="col-xl-4 col-md-4 col-12 text-center my-5 invisible animated">
                     <i class="fas fa-seedling fa-5x text-white"></i>
                     <h2 class="text-white mt-5">Biologique</h2>
                     <p class="text-white">Notre café est 100% fait de façon biologique.</p>
                 </div>
-                <div class="col-xl-4 col-md-4 col-12 text-center my-5">
-                    <i class="fas fa-handshake fa-5x text-white"></i>
+                <div class="col-xl-4 col-md-4 col-12 text-center my-5 invisible animated">
+                    <i class="fas fa-handshake fa-5x text-white shake-slow"></i>
                     <h2 class="mt-5 text-white">Équitable</h2>
                     <p class="text-white">Nous payons les producteurs de façon équitable.</p>
                 </div>
-                <div class="col-xl-4 col-md-4 col-12 text-center my-5">
+                <div class="col-xl-4 col-md-4 col-12 text-center my-5 invisible animated">
                     <i class="fas fa-star fa-5x text-white"></i>
                     <h2 class="mt-5 text-white">Haute qualité</h2>
                     <p class="text-white">Nous choisissons que les meilleurs grains de café.</p>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <section>
@@ -120,13 +127,13 @@
 <footer class="bgdarkgrey pt-5">
     <div class="container-fluid">
         <div class="row pt-4 mx-5">
-            <div class="col-4 pb-5">
+            <div class="col-xl-4 col-md-4 col-12 pb-5 rsociaux">
                 <h4 class="text-white">Suivez-nous sur :</h4>
                 <i class="fab fa-facebook fa-3x text-white icon"></i>
                 <i class="fab fa-twitter fa-3x text-white icon"></i>
                 <i class="fab fa-instagram fa-3x text-white icon"></i>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-xl-4 col-md-4 text-center">
                 <a id="back-to-top" href="#top" role="button"><i class="fas fa-chevron-up text-white fa-3x"></i></a>
             </div>
         </div>
@@ -135,6 +142,7 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up fa-5x text-white"></i></button>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/indexanimation.js"></script>
 <script src="js/buttonbacktotop.js"></script>
 </body>
 </html>

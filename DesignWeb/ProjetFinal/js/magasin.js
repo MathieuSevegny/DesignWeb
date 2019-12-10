@@ -6,16 +6,24 @@ const blancprix = 22.95;
 const orprix = 41.85;
 
 $('#addnoir').click(function () {
-    noir++;
-    $('#nbcafenoir').val(noir);
+    if (noir < 10) {
+        noir++;
+        $('#nbcafenoir').val(noir);
+    }
 });
 $('#addgold').click(function () {
-    gold++;
-    $('#nbcafeor').val(gold);
+    if (gold < 10) {
+        gold++;
+        $('#nbcafeor').val(gold);
+    }
+
 });
 $('#addblanc').click(function () {
-    blanc++;
-    $('#nbcafeblanc').val(blanc);
+    if (blanc < 10) {
+        blanc++;
+        $('#nbcafeblanc').val(blanc);
+    }
+
 });
 
 $('.cart').click(function () {
@@ -24,7 +32,11 @@ $('.cart').click(function () {
 });
 
 $('#buttonsend').click(function () {
-    location.reload();
+    if ((noir === "0" || noir === "") && (gold === "0" || gold === "") && (blanc === "0" || blanc === "")) {
+        $('#buttonsend').popover('toggle');
+    } else {
+        location.reload();
+    }
 });
 
 $('#continuer').click(function () {
@@ -37,40 +49,37 @@ function reload() {
     blanc = $('#nbcafeblanc').val();
     if (noir === "0" || noir === "") {
         $('#sacnoir').hide();
-    }
-    else {
+    } else {
         $('#sacnoir').show();
     }
     if (gold === "0" || gold === "") {
         $('#sacgold').hide();
-    }
-    else {
+    } else {
         $('#sacgold').show();
     }
     if (blanc === "0" || blanc === "") {
         $('#sacblanc').hide();
-    }
-    else {
+    } else {
         $('#sacblanc').show();
     }
-    let black = Math.round(noirprix * noir *100)/100;
-    let white = Math.round(blancprix * blanc *100)/100;
-    let or = Math.round(orprix * gold *100)/100;
+    let black = Math.round(noirprix * noir * 100) / 100;
+    let white = Math.round(blancprix * blanc * 100) / 100;
+    let or = Math.round(orprix * gold * 100) / 100;
     let total = black + white + or;
-    if (total === 0 || total === null){
+    if (total === 0 || total === null) {
         $('#nothing').show();
-    }
-    else {
+    } else {
         $('#nothing').hide();
     }
     $('#prixnoir').html(black + "$");
     $('#prixor').html(or + "$");
     $('#prixblanc').html(white + "$");
-    $('#soustotal').html("Sous-total : " + Math.round(total *100)/100 + "$");
-    $('#tps').html("TPS : " + Math.round(total * 0.05 *100)/100 + "$");
-    $('#tvq').html("TVQ : " + Math.round(total * 0.09975 *100)/100 + "$");
-    $('#total').html("Total : " + Math.round(total * 1.14975 *100)/100 + "$");
+    $('#soustotal').html("Sous-total : " + Math.round(total * 100) / 100 + "$");
+    $('#tps').html("TPS : " + Math.round(total * 0.05 * 100) / 100 + "$");
+    $('#tvq').html("TVQ : " + Math.round(total * 0.09975 * 100) / 100 + "$");
+    $('#total').html("Total : " + Math.round(total * 1.14975 * 100) / 100 + "$");
 }
+
 $('.counter').click(function () {
     reload();
 });
