@@ -10,47 +10,11 @@
       <change afterPath="$PROJECT_DIR$/../Photociti2/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Photociti2/.idea/Photociti1.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PokemonCard/.idea/PokemonCard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/csshake.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/indexanimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/wowjs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MaPassion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaPassion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Photociti/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Photociti/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Photociti/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Photociti/js/image.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emplacements.html" beforeDir="false" afterPath="$PROJECT_DIR$/emplacements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.abide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.accordion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.alert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.clearing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.equalizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.interchange.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.joyride.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.magellan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.offcanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.orbit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.reveal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/foundation/foundation.topbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/magasin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/magasin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/fastclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/motion-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prix.html" beforeDir="false" afterPath="$PROJECT_DIR$/prix.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/propos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SiteSpaceX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SiteSpaceX/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +115,7 @@
       <workItem from="1575907547321" duration="1304000" />
       <workItem from="1575921883862" duration="6857000" />
       <workItem from="1575933076400" duration="2685000" />
-      <workItem from="1575983425842" duration="3882000" />
+      <workItem from="1575983425842" duration="4236000" />
     </task>
     <task id="LOCAL-00001" summary="Upload">
       <created>1575851473216</created>
@@ -160,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575851473216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upload">
+      <created>1575988536927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575988536927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,17 +147,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575935671333" />
-    <state x="370" y="6" key="CommitChangelistDialog2" timestamp="1575851472197">
+    <state x="370" y="6" key="CommitChangelistDialog2" timestamp="1575988536266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="370" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575851472197" />
+    <state x="370" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575988536266" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1575675510707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575675510707" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575851479008">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575988540448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575851479008" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575988540448" />
   </component>
 </project>
