@@ -146,7 +146,7 @@ header video {
     text-decoration: none;
 }
 .cart{
-    color: yellow;
+    color: #703f12;
 }
 .cart:hover{
     cursor: pointer;
