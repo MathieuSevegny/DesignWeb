@@ -49,13 +49,13 @@
         <!---------------------------------------------------------------------->
         <div class="modal" tabindex="-1" role="dialog" id="panier">
             <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
+                <div class="modal-content bgdarkgrey">
+                    <div class="modal-header text-white">
                         Panier
                     </div>
                     <div class="modal-body">
                         <div id="nothing" class="row text-center">
-                            <div class="col"><h3>Il y a rien dans votre panier.</h3></div>
+                            <div class="col"><h3 class="text-white">Il y a rien dans votre panier.</h3></div>
                         </div>
 
                         <div id="sacnoir">
@@ -67,7 +67,7 @@
                                     <h3>MyCafé noir</h3>
                                     <input type="number" class="counter" id="nbcafenoir" name="nbcafenoir"
                                            min="0" max="10">
-                                    <h5 id="prixnoir"></h5>
+                                    <h5 id="prixnoir" class="text-white"></h5>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                                     <h3>MyCafé or</h3>
                                     <input type="number" class="counter" id="nbcafeor" name="nbcafeor"
                                            min="0" max="10">
-                                    <h5 id="prixor"></h5>
+                                    <h5 id="prixor" class="text-white"></h5>
                                 </div>
                             </div>
                         </div>
@@ -93,23 +93,23 @@
                                     <h3>MyCafé blanc</h3>
                                     <input type="number" class="counter" id="nbcafeblanc" name="nbcafeblanc"
                                            min="0" max="10">
-                                    <h5 id="prixblanc"></h5>
+                                    <h5 id="prixblanc" class="text-white"></h5>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-4"></div>
                             <div class="col-8">
-                                <p id="soustotal"></p>
-                                <p id="tps"></p>
-                                <p id="tvq"></p>
-                                <p id="total"></p>
+                                <p id="soustotal" class="text-white"></p>
+                                <p id="tps" class="text-white"></p>
+                                <p id="tvq" class="text-white"></p>
+                                <p id="total" class="text-white"></p>
                             </div>
                         </div>
                     </div>
                     <div class="modal-footer">
                         <div class="ml-auto">
-                            <button type="button" id="continuer" class="btn btn-dark">Continuer</button>
+                            <button type="button" id="continuer" class="btn btn-light">Continuer</button>
                             <button type="button" id="buttonsend" class="btn btn-danger" data-toggle="popover" data-placement="top" data-content="Le panier est vide.">Commander</button>
                         </div>
                     </div>
