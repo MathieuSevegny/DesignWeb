@@ -104,7 +104,13 @@ header {
     100% { transform: rotate(360deg); transform: rotate(360deg); }
 }
 
-
+.addbutton{
+    font-size: 1.5rem;
+}
+.desc{
+    font-size: 1.5rem;
+    color: white;
+}
 
 header video {
     position: absolute;
