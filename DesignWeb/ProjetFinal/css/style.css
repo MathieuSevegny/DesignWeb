@@ -111,7 +111,9 @@ header {
     font-size: 1.5rem;
     color: white;
 }
-
+#map{
+    width: 100%;
+}
 header video {
     position: absolute;
     top: 30%;
